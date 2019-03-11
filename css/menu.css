@@ -1,0 +1,46 @@
+img{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+body{
+    background-color: black;
+}
+
+.chap1{
+    position: relative;
+    background-image: url(img/Chapitre%201.png);
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 290px;
+    top: 400px;
+    left: 50px;
+    cursor: pointer;
+}
+.chap2{
+    position: relative;
+    background-image: url(img/Chapitre%204.png);
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 330px;
+    top: 330px;
+    left: 550px;
+    cursor: pointer;
+}
+
+.chap3{
+    position: relative;
+    background-image: url(img/Chapitre3.png);
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 350px;
+    top: 250px;
+    left: 970px;
+    cursor: pointer;
+}
+
+a{
+    padding: 80px;
+}

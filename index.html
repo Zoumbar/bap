@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+	<head>
+		<title>Chapitre 1</title>
+		<link rel="stylesheet" type="text/css" href="css/chap1.css">
+		<link rel="icon" href="">
+		<meta charset="utf-8">
+		
+	</head>
+	<body>
+        <audio id="audioPlayer" src="css/son/GHIBLI_1.mp3"></audio>
+		<video autoplay muted loop id="bgvideo">
+            <source src="css/video/Etincelle_3.mp4" type="video/mp4">
+        </video>
+        <div id="menu">
+            <a href="menu.html">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>    
+        </div>
+        <button class="control" onclick="play('audioPlayer', this)">Play sound</button>
+		<section>
+			<article id="un"><img src="css/img/chap1/un.png" class="un"></article>
+			<article id="deux"><img src="css/img/chap1/deux.png" class="deux"></article>
+			<article id="trois"><img src="css/img/chap1/trois.png" class="trois"></article>
+			<article id="quatre"><img src="css/img/chap1/quatre.png" class="quatre"></article>
+			<article id="cinq"><img src="css/img/chap1/cinq.png"class="cinq"></article>
+			<article id="six"><img src="css/img/chap1/six.png"class="six"></article>
+            
+        </section>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+        <script src="anim.js"></script>
+        <script src="son.js"></script>
+	</body>
+</html>

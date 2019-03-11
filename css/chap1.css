@@ -1,0 +1,67 @@
+body{
+    overflow-x:hidden;
+}
+section{
+	position: relative;
+}
+article{
+	width: 100%;
+	height: 600px;
+	margin-top:500px;
+	position: relative;
+	z-index: 2;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  position: relative;
+}
+.trois,.quatre,.cinq,.six{
+	width: 70%;
+}
+
+#bgvideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: 1;
+}
+#un{
+  margin-top: 200px;
+}
+
+.control{
+    position: fixed;
+    z-index: 3;
+    top: 100px;
+}
+#menu
+{
+  display: block;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  
+  z-index: 2;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+#menu span
+{
+  display: block;
+  width: 70px;
+  height: 15px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background-color: #e1a131;
+
+  border-radius: 5px;
+
+}
